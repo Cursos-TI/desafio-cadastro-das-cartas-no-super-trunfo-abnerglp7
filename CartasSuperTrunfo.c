@@ -5,10 +5,19 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 int main() {
-    char cidade1, cidade2[50];
-    int população1, papulação2;
+    char estado1, estado2, cidade1, cidade2[50];
+    char código[10];
+    int população1, papulação2, pontosturísticos1, pontosturísticos2;
     float área1, área2;
     float pib1, pib2;
+
+    printf("Carta 1: \n");
+
+    printf("Estado: \n");
+    scanf("%s", &estado1);
+
+    printf("Código: \n");
+    scanf("%s", código);
               
     printf("Cidade: \n");
     scanf("%s", &cidade1);
@@ -17,10 +26,13 @@ int main() {
     scanf("%d", &população1);
 
     printf("Área: \n");
-    scanf("%f" &área1);
+    scanf("%f", &área1);
 
     printf("PIB: \n");
-    scanf("%f" &pib1);
+    scanf("%f", &pib1);
+
+    printf("Número de Pontos Turísticos: \n");
+    scanf("d", &pontosturísticos1);
     
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
